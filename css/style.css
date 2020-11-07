@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.text-primary {
+  color: #f7c08a;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background: #333;
+  padding: 13px 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #f7c08a;
+  color: #333;
+}
+
+.btn-light {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.bg-dark {
+  background: #333;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-primary {
+  background: #f7c08a;
+  color: #333;
+}
+
+.clr {
+  clear: both;
+}
+
+/* padding */
+.py-1 {
+  padding: 10px 0;
+}
+.py-2 {
+  padding: 20px 0;
+}
+.py-3 {
+  padding: 30px 0;
+}
+
+/* heading */
+
+.l-headding {
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+/* main styling */
+
+html,
+body {
+  font-family: "Segoe UI", Tahoma, "Geneva", Verdana, sans-serif;
+  line-height: 1.7rem;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* navbar */
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  overflow: auto;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+.navbar ul {
+  float: right;
+  list-style: none;
+}
+
+.navbar ul li {
+  float: left;
+}
+
+.navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+.navbar a:hover,
+.current {
+  background-color: #444;
+  color: #f7c08a;
+}
+
+.showcase {
+  background: url("../img/showcase.jpg") no-repeat center center/cover;
+  height: 65vh;
+}
+
+.showcase-cont {
+  color: #fff;
+  text-align: center;
+  padding-top: 170px;
+}
+
+.showcase-cont h1 {
+  font-size: 60px;
+  line-height: 1.2;
+}
+
+.showcase p {
+  padding-bottom: 20px;
+  line-height: 1.7rem;
+}
+
+/* home info */
+.home-info {
+  height: 400px;
+}
+.imfo-img {
+  float: left;
+  width: 50%;
+  height: 400px;
+}
+.imfo-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.info-cont {
+  height: 100%;
+  float: right;
+  width: 50%;
+  padding: 30px;
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+}
+
+.info-cont h2 {
+  margin-top: 20px;
+}
+
+.info-cont p {
+  margin-bottom: 20px;
+  line-height: 1.8rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Features section */
+.box {
+  float: left;
+  width: 33%;
+  padding: 50px;
+  text-align: center;
+}
+.box i {
+  margin-bottom: 10px;
+}
+
+/* footer */
+
+.main-footer {
+  text-align: center;
+  background-color: #444;
+  color: #fff;
+  padding: 20px;
+}
+/* --------------------------------------------------------------------- */
+
+/* about info */
+
+.info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+.info-right {
+  width: 50%;
+  float: right;
+  min-height: 100%;
+}
+
+.info-right img {
+  display: block;
+  width: 70%;
+  margin: auto;
+  border-radius: 50%;
+}
+
+/* testimonials */
+
+.testi {
+  padding: 80px 0;
+  background: url("../img/test-bg.jpg") no-repeat center center/cover;
+}
+
+.testi h2 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.test {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+}
+
+.test img {
+  float: left;
+  width: 100px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.bg-primary-1 {
+  background-color: rgba(247, 192, 138, .8);
+}
+
+
+/* ====================================contact form=================================== */
+
+.form-group{
+  padding-bottom: 40px;
+}
+
+.form-group label{
+  display: block;
+  margin-bottom: 5px;
+
+}
+
+.form-group input, .form-group textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bbb;
+  outline: none;
+  font-size: 18px
+}
+
+.form-group textarea{
+  height: 200px;
+}
+
+
+.contact-info{
+  color: #fff;
+}
+
+
+
+
+
+
+

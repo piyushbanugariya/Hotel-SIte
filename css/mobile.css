@@ -1,0 +1,68 @@
+.navbar h1 {
+    float: none;
+    text-align: center;
+}
+
+.showcase {
+    height: 70vh;
+}
+
+.showcase-cont {
+    padding-top: 60px;
+}
+
+.showcase-cont h1 {
+    font-size: 50px;
+}
+
+.navbar ul li,
+.navbar ul {
+    float: none;
+}
+
+.navbar ul li a {
+    padding: 5px;
+    border-bottom: 1px dotted #444;
+}
+
+.imfo-img {
+    display: none;
+}
+
+.info-cont {
+    float: none;
+    width: 100%;
+}
+
+.info-cont p {
+    margin-bottom: 20px;
+}
+
+.home-info {
+    height: 500px;
+}
+
+.box {
+    float: none;
+    width: 100%;
+}
+
+/* About Page */
+.info-left,
+.info-right {
+    float: none;
+    width: 100%;
+}
+
+.l-headding {
+    text-align: center;
+}
+
+.info-right {
+    margin-top: 30px;
+}
+
+/* Contact */
+.contact-info .box {
+    border-bottom: 1px dotted #444;
+}
